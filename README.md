@@ -218,4 +218,4 @@ Upload both icons present at /doc/nextcloud_icons/ to your nextcloud at the "ext
 
 **_ MIT License _**
 
-Node 18.22.4
+Node 18.20.4
