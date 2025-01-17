@@ -1,0 +1,12 @@
+version: "3.1"
+services:
+  whiteboard:
+    image: rofl256/whiteboard
+    restart: always
+    ports:
+      - "8080:8080/tcp"
+    command: --config=./config.default.yml
+    volumes:
+      - ./data/uploads:/opt/app/public/uploads"
+      - ./data/config.yml:/opt/app/config.default.yml:ro
+      - ./data/savedBoards:/opt/app/savedBoards"
